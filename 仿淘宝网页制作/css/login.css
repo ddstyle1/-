@@ -31,6 +31,7 @@
 	color: #c81623;
 }
 .reg_form {
+	position: relative;
 	width: 600px;
 	height: 400px;
 	margin: 40px auto 0;
@@ -38,6 +39,12 @@
 .reg_form li {
 	margin-bottom: 15px;
 }
+
+.reg_form li:nth-child(3){
+	/* position: absolute; */
+	display: none;
+}
+
 .reg_form label {
 	display: inline-block;
 	width: 100px;
@@ -47,8 +54,7 @@
 }
 .inp-1,
 .inp-2,
-.inp-3,
-.inp-4{
+.inp-3{
 	width: 238px;
 	height: 34px;
 	border: 1px solid #ccc;
@@ -68,10 +74,6 @@
 	color: #40b83f;
 	/* margin-left: 10px; */
 }
-#eye{
-	width: 25px;
-	height: 25px;
-}
 .icon{
 	display: inline-block;
 	width: 20px;
@@ -86,25 +88,9 @@
 .success_icon {
 	background-image: url(../img/success.png);
 }
-.safe {
-	padding-left: 187px;
-	color: #b2b2b2;
-}
-.safe em {
-	padding: 0 12px;
-	color: #fff;
-}
-.ruo {
-	background-color: #de1111;
-}
 
-.zhong {
-	background-color: #40b83f;
-}
 
-.qiang {
-	background-color: #f79100;
-}
+
 .agree {
 	padding-top: 20px;
 	padding-left: 100px;
